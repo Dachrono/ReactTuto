@@ -1,11 +1,12 @@
 import './App.css';
+import Title from './components/title';
+import TaskContainer from './components/taskCont';
 
 function App() {
   return (
     <>
-      <header className="container">
-        <h1>ToDo</h1>
-      </header>
+      <Title />
+      <TaskContainer />
     </>
   );
 }
